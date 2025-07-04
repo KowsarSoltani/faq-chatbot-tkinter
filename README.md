@@ -1,23 +1,32 @@
 # FAQ Chatbot with GUI (Tkinter)
+A Persian-language FAQ Chatbot with a Graphical User Interface using Tkinter
 
-This is a simple yet powerful Persian-language chatbot designed to answer frequently asked questions (FAQs). It uses fuzzy keyword matching and a JSON knowledge base to provide relevant answers, all within a friendly GUI built with Tkinter.
+# Objective
+To build a simple yet powerful chatbot that answers frequently asked questions (FAQs) in Persian, using fuzzy keyword matching and a JSON-based knowledge base — all within a user-friendly GUI.
+
+# Files
+chatbot.py: Main application file containing the chatbot logic and GUI
+data.json: Knowledge base containing questions, keywords, and answers
 
 # Features
 
 - GUI built with Tkinter
-- Persian language support
-- Fuzzy matching with `fuzzywuzzy`
-- Smart handling of subquestions
-- JSON-based FAQ knowledge base
+- Full support for Persian (Farsi) language
+- Fuzzy keyword matching using fuzzywuzzy
+- Smart handling of subquestions and follow-up queries
+- Easily extendable JSON-based FAQ system
 
 # Files
 
 - chatbot.py: The main application file
 - data.json: The knowledge base with questions, keywords, and answers
   
-# Requirements
+# Dependencies
 
-- Python 3.12 or newer
-- fuzzywuzzy
-- python-Levenshtein (optional but recommended for better performance)
-- tkinter (comes with most Python installations)
+Python 3.12 or newer
+fuzzywuzzy
+python-Levenshtein
+tkinter
+
+# Installation
+pip install fuzzywuzzy python-Levenshtein 
